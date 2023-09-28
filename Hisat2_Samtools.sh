@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Indexing genome, aligning reads, and sorting and converting to .bam file using Hisat2 and Samtools 
+#Indexing genome, aligning RNA-seq reads, and sorting and converting to .bam file using Hisat2 and Samtools 
 
 #SBATCH --nodes=1
 #SBATCH --time=16:00:00
