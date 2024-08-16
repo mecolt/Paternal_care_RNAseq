@@ -11,9 +11,9 @@ The repository is organized into the following scripts, which should be run sequ
 
 **Quality Control and Trimming:**
 
-  •	FastQC.sh: This script runs FastQC (version 0.11.9) to assess the quality of the raw RNAseq reads.
+•	FastQC.sh: This script runs FastQC (version 0.11.9) to assess the quality of the raw RNAseq reads.
 
-  •	Trimmomatic.sh: This script uses Trimmomatic (version 0.39) to remove low-quality bases from the RNAseq reads.
+•	Trimmomatic.sh: This script uses Trimmomatic (version 0.39) to remove low-quality bases from the RNAseq reads.
 
 
 
