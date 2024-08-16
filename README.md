@@ -6,11 +6,15 @@ Repository Structure
 The repository is organized into the following scripts, which should be run sequentially to reproduce the analysis:
 
 Quality Control and Trimming:
+
 •	FastQC.sh: This script runs FastQC (version 0.11.9) to assess the quality of the raw RNAseq reads.
+
 •	Trimmomatic.sh: This script uses Trimmomatic (version 0.39) to remove low-quality bases from the RNAseq reads.
 
 Alignment and Counting:
+
 •	Hisat2_Samtools.sh: This script aligns the reads to the Peromyscus californicus genome using HISAT2 (version 2.2.1) and processes the alignments with SAMtools.
+
 •	FeatureCounts.sh: This script uses FeatureCounts (part of the Subread package, version 2.0.3) to count the number of reads that map to genomic features.
 
 Differential Gene Expression Analysis:
