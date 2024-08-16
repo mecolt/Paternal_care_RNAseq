@@ -1,10 +1,12 @@
-Paternal Care RNAseq Analysis
+**Paternal Care RNAseq Analysis**
 
 This repository contains scripts and resources used for the RNAseq analysis related to paternal care in _Peromyscus californicus_ (California mouse). The pipeline includes steps for quality control, trimming, alignment, read counting, differential gene expression, and alternative splicing analysis.
 
 
-Repository Structure
+
+**Repository Structure**
 The repository is organized into the following scripts, which should be run sequentially to reproduce the analysis:
+
 
 
 Quality Control and Trimming:
@@ -14,6 +16,7 @@ Quality Control and Trimming:
 •	Trimmomatic.sh: This script uses Trimmomatic (version 0.39) to remove low-quality bases from the RNAseq reads.
 
 
+
 Alignment and Counting:
 
 •	Hisat2_Samtools.sh: This script aligns the reads to the Peromyscus californicus genome using HISAT2 (version 2.2.1) and processes the alignments with SAMtools.
@@ -21,9 +24,11 @@ Alignment and Counting:
 •	FeatureCounts.sh: This script uses FeatureCounts (part of the Subread package, version 2.0.3) to count the number of reads that map to genomic features.
 
 
+
 Differential Gene Expression Analysis:
 
 •	DESeq2.R: An R script for differential expression analysis using DESeq2 (version 1.38.3). It constructs the DESeqDataSet object and performs pairwise comparisons between treatment groups.
+
 
 
 Alternative Splicing and Additional Analysis:
@@ -41,17 +46,20 @@ Alternative Splicing and Additional Analysis:
 •	6F.R_script_f_nf_example.sh: Executes the corresponding R script for analyzing father (f) and non-father (nf) datasets.
 
 
+
 Gene Co-expression Network Analysis:
 
 •	WGCNA.R: An R script for Weighted Gene Co-expression Network Analysis (WGCNA).
 
 
-Usage
+
+**Usage**
 
 Execute the scripts in the order mentioned above. Make sure to adjust file paths and parameters as needed for your specific setup.
 
 
-Contact
+
+**Contact**
 
 For any questions or issues with the repository, please contact mcolt@umd.edu.
 
