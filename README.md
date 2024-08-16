@@ -9,7 +9,7 @@ The repository is organized into the following scripts, which should be run sequ
 
 
 
-Quality Control and Trimming:
+**Quality Control and Trimming:**
 
 •	FastQC.sh: This script runs FastQC (version 0.11.9) to assess the quality of the raw RNAseq reads.
 
@@ -17,7 +17,7 @@ Quality Control and Trimming:
 
 
 
-Alignment and Counting:
+**Alignment and Counting:**
 
 •	Hisat2_Samtools.sh: This script aligns the reads to the Peromyscus californicus genome using HISAT2 (version 2.2.1) and processes the alignments with SAMtools.
 
@@ -25,13 +25,13 @@ Alignment and Counting:
 
 
 
-Differential Gene Expression Analysis:
+**Differential Gene Expression Analysis:**
 
 •	DESeq2.R: An R script for differential expression analysis using DESeq2 (version 1.38.3). It constructs the DESeqDataSet object and performs pairwise comparisons between treatment groups.
 
 
 
-Alternative Splicing and Additional Analysis:
+**Alternative Splicing and Additional Analysis:**
 
 •	6A.Index_rna_fna_kallisto.sh: Builds a kallisto index from the _P. californicus_ transcriptome.
 
@@ -47,7 +47,7 @@ Alternative Splicing and Additional Analysis:
 
 
 
-Gene Co-expression Network Analysis:
+**Weighted Gene Co-expression Network Analysis:**
 
 •	WGCNA.R: An R script for Weighted Gene Co-expression Network Analysis (WGCNA).
 
