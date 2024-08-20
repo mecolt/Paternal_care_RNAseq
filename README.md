@@ -19,7 +19,7 @@ The repository is organized into the following scripts, which should be run sequ
 
 **Alignment and Counting:**
 
-•	Hisat2_Samtools.sh: This script aligns the reads to the Peromyscus californicus genome using HISAT2 (version 2.2.1) and processes the alignments with SAMtools.
+•	Hisat2_Samtools.sh: This script aligns the reads to the _Peromyscus californicus_ genome using HISAT2 (version 2.2.1) and processes the alignments with SAMtools.
 
 •	FeatureCounts.sh: This script uses FeatureCounts (part of the Subread package, version 2.0.3) to count the number of reads that map to genomic features.
 
@@ -35,13 +35,13 @@ The repository is organized into the following scripts, which should be run sequ
 
 •	6A.Index_rna_fna_kallisto.sh: Builds a kallisto index from the _P. californicus_ transcriptome.
 
-•	6B.Align_example_kallisto.sh: Pseudoaligns RNAseq reads to the transcriptome using kallisto (version 0.46.2).
+•	6B.Align_example_kallisto.sh: Pseudoaligns RNAseq reads to the transcriptome using kallisto (version 0.46.2). This script is an example for aligning reads from a single individual.
 
 •	6C.HBA_DEALS_sim.R: Simulates data for the HBA-DEALS package.
 
 •	6D.R_script_sim.sh: Runs the simulation R script for HBA-DEALS.
 
-•	6E.HBA_DEALS_f_nf_example.R: Performs differential gene expression and alternative splicing analysis between specific treatment groups using the HBA-DEALS package (version 1.0).
+•	6E.HBA_DEALS_f_nf_example.R: Performs differential gene expression and alternative splicing analysis between specific treatment groups using the HBA-DEALS package (version 1.0). In this example, the comparison is between fathers (f) and non-fathers (nf). 
 
 •	6F.R_script_f_nf_example.sh: Executes the corresponding R script for analyzing father (f) and non-father (nf) datasets.
 
